@@ -190,7 +190,7 @@ public class calculatorInRealLoife
 				while(!validNumber);
 
 				//if not finished, set all boolean back to false
-				//prevents try catch loop to fail and it skipping to checkIfDone function call
+				//prevents try catch loop from skipping
 				if(!check)
 				{
 					validNumber = false;
